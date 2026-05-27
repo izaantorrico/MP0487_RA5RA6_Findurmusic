@@ -9,6 +9,7 @@ function validateEmail() {
         echo json_encode(array("message" => "Complete los campos correctamente."));
         return;
     }
+    
 
 
     $db = new Database();
